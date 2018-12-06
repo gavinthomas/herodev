@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HeroDataKick</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="action_alphabetic">Alphabetic</string>
+    <string name="action_alphabetic_reverse">Reverse Alphabetic</string>
+    <string name="action_numeric">Size numeric</string>
+    <string name="action_numeric_reverse">Reverse size numeric</string>
+
+    <string name="error_icon_content_desc">Error</string>
+
+
+</resources>

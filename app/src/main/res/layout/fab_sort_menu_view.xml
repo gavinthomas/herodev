@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        tools:context=".ui.MainActivity"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/fabLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/standard_23"
+            android:padding="@dimen/standard_12"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/standard_23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:visibility="gone">
+
+
+        <android.support.v7.widget.CardView
+                android:id="@+id/fab1card"
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:padding="4dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_numeric_reverse"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/ic_sort_reverse_numeric"
+                app:fabSize="mini"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/fabLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/standard_12"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_marginEnd="@dimen/standard_23"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/standard_23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:visibility="gone">
+
+        <android.support.v7.widget.CardView
+                android:id="@+id/fab2card"
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:padding="4dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_numeric"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/ic_sort_by_numeric_order"
+                app:fabSize="mini"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/fabLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/standard_12"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_marginEnd="@dimen/standard_23"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/standard_23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:visibility="gone">
+
+
+        <android.support.v7.widget.CardView
+                android:id="@+id/fab3card"
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:padding="4dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_alphabetic_reverse"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/ic_sort_reverse_alphabetical_order"
+                android:tint="@android:color/white"
+                app:fabSize="mini"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/fabLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/standard_12"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_marginEnd="@dimen/standard_23"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/standard_23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:visibility="gone">
+
+
+        <android.support.v7.widget.CardView
+                android:id="@+id/fab4card"
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:padding="4dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_alphabetic"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/ic_sort_by_alphabet"
+                android:tint="@android:color/white"
+                app:fabSize="mini"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:gravity="center_vertical"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:padding="@dimen/standard_12"
+            android:layout_marginBottom="@dimen/fab_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:gravity="center_vertical"
+                app:srcCompat="@drawable/ic_sort_by_alphabet"
+                app:fabSize="normal"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
